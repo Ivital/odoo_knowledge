@@ -16,27 +16,22 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: document_page_approval
 #: model_terms:ir.ui.view,arch_db:document_page_approval.wiki_form_inherit
 msgid ""
 "<b>You already have a Draft Change Request for this page.</b>\n"
-"                    It is highly recommended that you edit that one instead "
-"of creating a new one."
+"                    It is highly recommended that you edit that one instead of creating a new one."
 msgstr ""
 
 #. module: document_page_approval
 #: model:mail.template,body_html:document_page_approval.email_template_new_draft_need_approval
 msgid ""
 "<p>Hello,</p>\n"
-"            <p><t t-out=\"object.create_uid.name\"/> submited a new Change "
-"Request for <b t-out=\"object.page_id.name\"/> and it needs your approval.</"
-"p>\n"
+"            <p><t t-out=\"object.create_uid.name\"/> submited a new Change Request for <b t-out=\"object.page_id.name\"/> and it needs your approval.</p>\n"
 "            <h1>\n"
-"                <a t-att-href=\"object.page_url\" t-out=\"object."
-"display_name\"/>\n"
+"                <a t-att-href=\"object.page_url\" t-out=\"object.display_name\"/>\n"
 "            </h1>\n"
 "            <p>\n"
 "                <b>Modified by:</b>\n"
@@ -51,8 +46,7 @@ msgid ""
 "                <p t-out=\"object.summary\"/>\n"
 "            </t>\n"
 "            <h3>Diff</h3>\n"
-"            <div style=\"overflow-x:scroll; font-size:0.85em; margin-"
-"bottom:2em;\">\n"
+"            <div style=\"overflow-x:scroll; font-size:0.85em; margin-bottom:2em;\">\n"
 "                <t t-out=\"object.diff\"/>\n"
 "            </div>\n"
 "            <p>Have a great day.</p>\n"
@@ -75,7 +69,7 @@ msgstr ""
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__am_i_owner
 msgid "Am I Owner"
-msgstr ""
+msgstr "Я власник"
 
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page__is_approval_required
@@ -104,13 +98,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page__approved_uid
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__approved_uid
 msgid "Approved by"
-msgstr ""
+msgstr "Погодив"
 
 #. module: document_page_approval
 #: model:res.groups,name:document_page_approval.group_document_approver_user
 #: model_terms:ir.ui.view,arch_db:document_page_approval.view_wiki_history_filter
 msgid "Approver"
-msgstr ""
+msgstr "Погоджувач"
 
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page__approver_gid
@@ -158,14 +152,14 @@ msgstr "Скасувати"
 #: model:ir.model.fields.selection,name:document_page_approval.selection__document_page_history__state__cancelled
 #: model_terms:ir.ui.view,arch_db:document_page_approval.view_wiki_history_filter
 msgid "Cancelled"
-msgstr ""
+msgstr "Скасовано"
 
 #. module: document_page_approval
 #: model:ir.actions.act_window,name:document_page_approval.action_change_requests
 #: model:ir.ui.menu,name:document_page_approval.menu_page_change_requests
 #: model_terms:ir.ui.view,arch_db:document_page_approval.wiki_form_inherit
 msgid "Change Requests"
-msgstr ""
+msgstr "Запити на зміни"
 
 #. module: document_page_approval
 #. odoo-python
@@ -198,7 +192,7 @@ msgstr ""
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__message_follower_ids
 msgid "Followers"
-msgstr ""
+msgstr "Підписники"
 
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__message_partner_ids
@@ -213,7 +207,7 @@ msgstr ""
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__has_message
 msgid "Has Message"
-msgstr ""
+msgstr "Має повідомлення"
 
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page__has_changes_pending_approval
@@ -223,7 +217,7 @@ msgstr ""
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page__history_ids
 msgid "History"
-msgstr ""
+msgstr "Історія"
 
 #. module: document_page_approval
 #: model:ir.model.fields,help:document_page_approval.field_document_page_history__message_needaction
@@ -244,7 +238,7 @@ msgstr ""
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "Є підписником"
 
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__message_has_error
@@ -254,7 +248,7 @@ msgstr ""
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__message_ids
 msgid "Messages"
-msgstr ""
+msgstr "Повідомлення"
 
 #. module: document_page_approval
 #. odoo-python
@@ -296,7 +290,7 @@ msgstr ""
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__rating_ids
 msgid "Ratings"
-msgstr ""
+msgstr "Рейтинги"
 
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page__approval_required
@@ -316,12 +310,12 @@ msgstr ""
 #. module: document_page_approval
 #: model_terms:ir.ui.view,arch_db:document_page_approval.view_wiki_history_filter
 msgid "State"
-msgstr ""
+msgstr "Стан"
 
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__state
 msgid "Status"
-msgstr ""
+msgstr "Статус"
 
 #. module: document_page_approval
 #: model_terms:ir.ui.view,arch_db:document_page_approval.wiki_form_inherit
