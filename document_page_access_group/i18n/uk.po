@@ -29,3 +29,9 @@ msgstr "Користувачі"
 #: model_terms:ir.ui.view,arch_db:document_page_access_group.document_page_access_group_view_wiki_form
 msgid "Security"
 msgstr "Безпека"
+
+#. module: document_page_access_group
+#. odoo-python
+#: code:addons/document_page_access_group/models/document_page.py:0
+msgid "You cannot set groups and users at the same time."
+msgstr "Не можна одночасно вказувати групи й користувачів."

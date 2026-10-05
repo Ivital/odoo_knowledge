@@ -17,3 +17,21 @@ msgstr ""
 #: model:ir.actions.server,name:attachment_zipped_download.action_attachments_download
 msgid "Download"
 msgstr "Завантажити"
+
+#. module: attachment_zipped_download
+#. odoo-python
+#: code:addons/attachment_zipped_download/models/ir_attachment_action_download.py:0
+msgid "No attachment!"
+msgstr "Немає вкладення!"
+
+#. module: attachment_zipped_download
+#. odoo-python
+#: code:addons/attachment_zipped_download/models/ir_attachment.py:0
+msgid "None attachment selected. Only binary attachments allowed."
+msgstr "Вкладення не вибрано. Дозволені лише бінарні вкладення."
+
+#. module: attachment_zipped_download
+#. odoo-python
+#: code:addons/attachment_zipped_download/models/ir_attachment_action_download.py:0
+msgid "There is no document found to download."
+msgstr "Не знайдено документа для завантаження."

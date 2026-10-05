@@ -138,13 +138,13 @@ msgstr "Повернути в чернетку"
 #. odoo-python
 #: code:addons/document_page_approval/models/document_page_history.py:0
 msgid "Can't approve page in '%s' state."
-msgstr ""
+msgstr "Не можна схвалити сторінку в стані '%s'."
 
 #. module: document_page_approval
 #. odoo-python
 #: code:addons/document_page_approval/models/document_page_history.py:0
 msgid "Can't approve pages in '%s' state."
-msgstr ""
+msgstr "Не можна схвалити сторінки в стані '%s'."
 
 #. module: document_page_approval
 #: model_terms:ir.ui.view,arch_db:document_page_approval.wiki_history_form_inherit
@@ -168,13 +168,13 @@ msgstr "Запити на зміни"
 #. odoo-python
 #: code:addons/document_page_approval/models/document_page_history.py:0
 msgid "Change request <b>%(name)s</b> has been cancelled by %(user)s."
-msgstr ""
+msgstr "Запит на зміну <b>%(name)s</b> скасовано користувачем %(user)s."
 
 #. module: document_page_approval
 #. odoo-python
 #: code:addons/document_page_approval/models/document_page_history.py:0
 msgid "Change request has been approved by %s."
-msgstr ""
+msgstr "Запит на зміну схвалено користувачем %s."
 
 #. module: document_page_approval
 #: model:ir.model,name:document_page_approval.model_document_page
@@ -257,7 +257,7 @@ msgstr "Повідомлення"
 #. odoo-python
 #: code:addons/document_page_approval/models/document_page_history.py:0
 msgid "New version of the document %s approved."
-msgstr ""
+msgstr "Нову версію документа %s схвалено."
 
 #. module: document_page_approval
 #: model:mail.template,subject:document_page_approval.email_template_new_draft_need_approval
@@ -370,6 +370,8 @@ msgid ""
 "You are not authorized to do this.\r\n"
 "Only approvers with these groups can approve this: {}"
 msgstr ""
+"У вас немає дозволу на цю дію.\n"
+"Схвалювати можуть лише затверджувачі з такими групами: {}"
 
 #. module: document_page_approval
 #. odoo-python
@@ -378,6 +380,8 @@ msgid ""
 "You are not authorized to do this.\r\n"
 "Only owners or approvers can reopen Change Requests."
 msgstr ""
+"У вас немає дозволу на цю дію.\n"
+"Лише власники або затверджувачі можуть повторно відкривати запити на зміну."
 
 #. module: document_page_approval
 #. odoo-python
@@ -386,9 +390,11 @@ msgid ""
 "You are not authorized to do this.\r\n"
 "Only owners or approvers can request approval."
 msgstr ""
+"У вас немає дозволу на цю дію.\n"
+"Лише власники або затверджувачі можуть запитувати схвалення."
 
 #. module: document_page_approval
 #. odoo-python
 #: code:addons/document_page_approval/models/document_page_history.py:0
 msgid "You need to cancel it before reopening."
-msgstr ""
+msgstr "Перш ніж повторно відкрити, потрібно скасувати."

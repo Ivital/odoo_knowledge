@@ -60,7 +60,7 @@ msgstr "Відображувана назва"
 #. odoo-javascript
 #: code:addons/document_url/static/src/js/url.esm.js:0
 msgid "Do you really want to delete \"%s\"?"
-msgstr ""
+msgstr "Справді видалити \"%s\"?"
 
 #. module: document_url
 #: model:ir.model.fields,field_description:document_url.field_ir_attachment_add_url__id

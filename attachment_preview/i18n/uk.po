@@ -18,3 +18,15 @@ msgstr ""
 #: code:addons/attachment_preview/static/src/xml/attachment_preview.xml:0
 msgid "Preview"
 msgstr "Попередній перегляд"
+
+#. module: attachment_preview
+#. odoo-javascript
+#: code:addons/attachment_preview/static/src/xml/attachment_preview.xml:0
+msgid "Open in new page"
+msgstr "Відкрити на новій сторінці"
+
+#. module: attachment_preview
+#. odoo-javascript
+#: code:addons/attachment_preview/static/src/js/web_views/fields/binary_field.esm.js:0
+msgid "Preview %s"
+msgstr "Попередній перегляд %s"

@@ -38,3 +38,13 @@ msgstr "Кількість сторінок документів"
 #: model:ir.actions.act_window,name:document_page_project_task.action_document_page_tasks
 msgid "Task Wiki"
 msgstr "Wiki завдання"
+
+#. module: document_page_project_task
+#. odoo-python
+#: code:addons/document_page_project_task/models/document_page.py:0
+msgid ""
+"All linked tasks must belong to the document's project '%(project)s'. The "
+"following tasks belong to a different project: %(tasks)s."
+msgstr ""
+"Усі пов’язані завдання мають належати проєкту документа «%(project)s». Такі "
+"завдання належать іншому проєкту: %(tasks)s."

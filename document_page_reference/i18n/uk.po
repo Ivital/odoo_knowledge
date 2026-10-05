@@ -28,3 +28,15 @@ msgstr "Розібраний вміст"
 msgid "Used to find the document, it can contain letters, numbers and _"
 msgstr ""
 "Використовується для пошуку документа; може містити літери, цифри та _"
+
+#. module: document_page_reference
+#. odoo-python
+#: code:addons/document_page_reference/models/document_page.py:0
+msgid "Reference is not valid"
+msgstr "Посилання недійсне"
+
+#. module: document_page_reference
+#. odoo-python
+#: code:addons/document_page_reference/models/document_page.py:0
+msgid "Reference must be unique"
+msgstr "Посилання має бути унікальним"
