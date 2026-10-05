@@ -24,3 +24,8 @@ msgstr "Групи"
 #: model_terms:ir.ui.view,arch_db:document_page_access_group.document_page_access_group_view_wiki_form
 msgid "Users"
 msgstr "Користувачі"
+
+#. module: document_page_access_group
+#: model_terms:ir.ui.view,arch_db:document_page_access_group.document_page_access_group_view_wiki_form
+msgid "Security"
+msgstr "Безпека"

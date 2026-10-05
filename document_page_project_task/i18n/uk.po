@@ -23,3 +23,18 @@ msgstr "Завдання"
 #: model_terms:ir.ui.view,arch_db:document_page_project_task.view_task_form2
 msgid "Wiki Pages"
 msgstr "Сторінки Wiki"
+
+#. module: document_page_project_task
+#: model_terms:ir.actions.act_window,help:document_page_project_task.action_document_page_tasks
+msgid "Click to create a new web page."
+msgstr "Натисніть, щоб створити нову вебсторінку."
+
+#. module: document_page_project_task
+#: model:ir.model.fields,field_description:document_page_project_task.field_project_task__document_page_count
+msgid "Document Page Count"
+msgstr "Кількість сторінок документів"
+
+#. module: document_page_project_task
+#: model:ir.actions.act_window,name:document_page_project_task.action_document_page_tasks
+msgid "Task Wiki"
+msgstr "Wiki завдання"

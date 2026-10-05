@@ -24,3 +24,25 @@ msgstr "База знань"
 #: model_terms:ir.ui.view,arch_db:document_page_product.view_wiki_form
 msgid "Products"
 msgstr "Товари"
+
+#. module: document_page_product
+#: model_terms:ir.actions.act_window,help:document_page_product.action_document_page_products
+msgid "Click to create a new web page."
+msgstr "Натисніть, щоб створити нову вебсторінку."
+
+#. module: document_page_product
+#: model:ir.model.fields,field_description:document_page_product.field_product_product__document_page_count
+#: model:ir.model.fields,field_description:document_page_product.field_product_template__document_page_count
+msgid "Document Page Count"
+msgstr "Кількість сторінок документів"
+
+#. module: document_page_product
+#: model:ir.model.fields,field_description:document_page_product.field_product_product__document_page_ids
+#: model:ir.model.fields,field_description:document_page_product.field_product_template__document_page_ids
+msgid "Document Pages"
+msgstr "Сторінки документів"
+
+#. module: document_page_product
+#: model:ir.model.fields,field_description:document_page_product.field_document_page__product_tmpl_ids
+msgid "Product Templates"
+msgstr "Шаблони товарів"

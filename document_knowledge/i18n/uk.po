@@ -26,7 +26,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:document_knowledge.field_res_config_settings__group_ir_attachment_user
 #: model:res.groups,name:document_knowledge.group_ir_attachment_user
 msgid "Central access to Documents"
-msgstr ""
+msgstr "Централізований доступ до документів"
 
 #. module: document_knowledge
 #: model:ir.model,name:document_knowledge.model_res_config_settings
@@ -60,7 +60,7 @@ msgstr ""
 #. module: document_knowledge
 #: model_terms:ir.ui.view,arch_db:document_knowledge.ir_attachment_view_user_documents
 msgid "Group by"
-msgstr ""
+msgstr "Групувати за"
 
 #. module: document_knowledge
 #: model:ir.ui.menu,name:document_knowledge.menu_document_root

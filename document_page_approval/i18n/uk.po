@@ -58,13 +58,13 @@ msgstr ""
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__message_needaction
 msgid "Action Needed"
-msgstr ""
+msgstr "Потрібна дія"
 
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page__am_i_approver
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__am_i_approver
 msgid "Am I Approver"
-msgstr ""
+msgstr "Чи я схвалювач"
 
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__am_i_owner
@@ -75,24 +75,24 @@ msgstr "Я власник"
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page__is_approval_required
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__is_approval_required
 msgid "Approval required"
-msgstr ""
+msgstr "Потрібне схвалення"
 
 #. module: document_page_approval
 #: model_terms:ir.ui.view,arch_db:document_page_approval.wiki_history_form_inherit
 msgid "Approve"
-msgstr ""
+msgstr "Схвалити"
 
 #. module: document_page_approval
 #: model:ir.model.fields.selection,name:document_page_approval.selection__document_page_history__state__approved
 #: model_terms:ir.ui.view,arch_db:document_page_approval.view_wiki_history_filter
 msgid "Approved"
-msgstr ""
+msgstr "Схвалено"
 
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page__approved_date
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__approved_date
 msgid "Approved Date"
-msgstr ""
+msgstr "Дата схвалення"
 
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page__approved_uid
@@ -109,17 +109,17 @@ msgstr "Погоджувач"
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page__approver_gid
 msgid "Approver group"
-msgstr ""
+msgstr "Група затверджувачів"
 
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page__approver_group_ids
 msgid "Approver groups"
-msgstr ""
+msgstr "Групи затверджувачів"
 
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__message_attachment_count
 msgid "Attachment Count"
-msgstr ""
+msgstr "Кількість вкладень"
 
 #. module: document_page_approval
 #: model:mail.template,name:document_page_approval.email_template_new_draft_need_approval
@@ -129,7 +129,7 @@ msgstr ""
 #. module: document_page_approval
 #: model_terms:ir.ui.view,arch_db:document_page_approval.wiki_history_form_inherit
 msgid "Back to draft"
-msgstr ""
+msgstr "Повернути в чернетку"
 
 #. module: document_page_approval
 #. odoo-python
@@ -181,13 +181,13 @@ msgstr ""
 #. module: document_page_approval
 #: model:ir.model,name:document_page_approval.model_document_page_history
 msgid "Document Page History"
-msgstr ""
+msgstr "Історія сторінки документа"
 
 #. module: document_page_approval
 #: model:ir.model.fields.selection,name:document_page_approval.selection__document_page_history__state__draft
 #: model_terms:ir.ui.view,arch_db:document_page_approval.view_wiki_history_filter
 msgid "Draft"
-msgstr ""
+msgstr "Чернетка"
 
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__message_follower_ids
@@ -197,7 +197,7 @@ msgstr "Підписники"
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "Підписники (контрагенти)"
 
 #. module: document_page_approval
 #: model:ir.model.fields,help:document_page_approval.field_document_page__approver_group_ids
@@ -243,7 +243,7 @@ msgstr "Є підписником"
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__message_has_error
 msgid "Message Delivery error"
-msgstr ""
+msgstr "Помилка доставки повідомлення"
 
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__message_ids
@@ -264,12 +264,12 @@ msgstr ""
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "Кількість дій"
 
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__message_has_error_counter
 msgid "Number of errors"
-msgstr ""
+msgstr "Кількість помилок"
 
 #. module: document_page_approval
 #: model:ir.model.fields,help:document_page_approval.field_document_page_history__message_needaction_counter
@@ -285,7 +285,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:document_page_approval.selection__document_page_history__state__to_approve
 #: model_terms:ir.ui.view,arch_db:document_page_approval.view_wiki_history_filter
 msgid "Pending Approval"
-msgstr ""
+msgstr "Очікує схвалення"
 
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__rating_ids
@@ -305,7 +305,7 @@ msgstr ""
 #. module: document_page_approval
 #: model_terms:ir.ui.view,arch_db:document_page_approval.wiki_history_form_inherit
 msgid "Send to Review"
-msgstr ""
+msgstr "Надіслати на перевірку"
 
 #. module: document_page_approval
 #: model_terms:ir.ui.view,arch_db:document_page_approval.view_wiki_history_filter
@@ -349,7 +349,7 @@ msgstr ""
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__website_message_ids
 msgid "Website Messages"
-msgstr ""
+msgstr "Повідомлення вебсайту"
 
 #. module: document_page_approval
 #: model:ir.model.fields,help:document_page_approval.field_document_page_history__website_message_ids

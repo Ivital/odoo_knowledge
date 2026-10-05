@@ -23,3 +23,18 @@ msgstr "Проєкт"
 #: model_terms:ir.ui.view,arch_db:document_page_project.edit_project
 msgid "Wiki Pages"
 msgstr "Сторінки Wiki"
+
+#. module: document_page_project
+#: model_terms:ir.actions.act_window,help:document_page_project.action_document_page_projects
+msgid "Click to create a new web page."
+msgstr "Натисніть, щоб створити нову вебсторінку."
+
+#. module: document_page_project
+#: model:ir.model.fields,field_description:document_page_project.field_project_project__document_page_count
+msgid "Document Page Count"
+msgstr "Кількість сторінок документів"
+
+#. module: document_page_project
+#: model:ir.actions.act_window,name:document_page_project.action_document_page_projects
+msgid "Project Wiki"
+msgstr "Wiki проєкту"

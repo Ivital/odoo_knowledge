@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:document_page_reference.field_document_page__reference
 msgid "Reference"
 msgstr "Посилання"
+
+#. module: document_page_reference
+#: model:ir.model.fields,field_description:document_page_reference.field_document_page__content_parsed
+msgid "Parsed Content"
+msgstr "Розібраний вміст"
