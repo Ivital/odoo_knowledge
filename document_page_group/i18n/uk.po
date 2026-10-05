@@ -22,3 +22,10 @@ msgstr "Група"
 #: model:ir.model.fields,field_description:document_page_group.field_document_page__direct_group_ids
 msgid "Visible to"
 msgstr "Видимий для"
+
+#. module: document_page_group
+#: model:ir.model.fields,help:document_page_group.field_document_page__direct_group_ids
+msgid "Set the groups that can view this category and its childs"
+msgstr ""
+"Установіть групи, які можуть переглядати цю категорію та її дочірні "
+"категорії"

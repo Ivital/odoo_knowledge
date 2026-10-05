@@ -42,7 +42,7 @@ msgstr "Налаштування"
 #. module: document_knowledge
 #: model:res.groups,name:document_knowledge.group_document_user
 msgid "Document Knowledge user"
-msgstr ""
+msgstr "Користувач бази знань документів"
 
 #. module: document_knowledge
 #: model:ir.actions.act_window,name:document_knowledge.knowledge_action_documents
@@ -55,7 +55,7 @@ msgstr "Документи"
 #. module: document_knowledge
 #: model:ir.module.category,name:document_knowledge.module_category_knowledge
 msgid "Documents Knowledge"
-msgstr ""
+msgstr "База знань документів"
 
 #. module: document_knowledge
 #: model_terms:ir.ui.view,arch_db:document_knowledge.ir_attachment_view_user_documents

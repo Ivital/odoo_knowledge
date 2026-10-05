@@ -22,7 +22,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/document_page/models/document_page.py:0
 msgid "%s (copy)"
-msgstr ""
+msgstr "%s (копія)"
 
 #. module: document_page
 #: model:ir.model.fields,field_description:document_page.field_document_page__message_needaction
@@ -171,7 +171,7 @@ msgstr "Створено"
 #. module: document_page
 #: model:ir.model.fields,help:document_page.field_document_page__draft_summary
 msgid "Describe the changes made"
-msgstr ""
+msgstr "Опишіть внесені зміни"
 
 #. module: document_page
 #: model:ir.model.fields,field_description:document_page.field_document_page_history__diff
@@ -217,7 +217,7 @@ msgstr "Історія сторінки документа"
 #. module: document_page
 #: model:ir.model,name:document_page.model_wizard_document_page_history_show_diff
 msgid "Document Page Show Diff"
-msgstr ""
+msgstr "Показати різницю сторінки документа"
 
 #. module: document_page
 #: model_terms:ir.ui.view,arch_db:document_page.view_category_form
@@ -299,7 +299,7 @@ msgstr "Якщо позначено, деякі повідомлення маю�
 #: model:ir.model.fields,help:document_page.field_document_page__company_id
 #: model:ir.model.fields,help:document_page.field_document_page_history__company_id
 msgid "If set, page is accessible only from this company"
-msgstr ""
+msgstr "Якщо задано, сторінка доступна лише з цієї компанії"
 
 #. module: document_page
 #: model:ir.model.fields,field_description:document_page.field_document_page__image
@@ -392,7 +392,7 @@ msgstr "Назва"
 #. module: document_page
 #: model:ir.model.fields,help:document_page.field_document_page__draft_name
 msgid "Name for the changes made"
-msgstr ""
+msgstr "Назва внесених змін"
 
 #. module: document_page
 #: model:ir.model.fields,field_description:document_page.field_document_page__activity_date_deadline
@@ -447,7 +447,7 @@ msgstr "Історія сторінки"
 #. module: document_page
 #: model:ir.model.fields,help:document_page.field_document_page__type
 msgid "Page type"
-msgstr ""
+msgstr "Тип сторінки"
 
 #. module: document_page
 #: model:ir.actions.act_window,name:document_page.action_page
@@ -525,6 +525,8 @@ msgid ""
 "Template that will be used as a content template for all new page of this "
 "category."
 msgstr ""
+"Шаблон, що використовуватиметься як шаблон вмісту для всіх нових сторінок "
+"цієї категорії."
 
 #. module: document_page
 #: model:ir.model.fields,field_description:document_page.field_document_page__name
@@ -550,7 +552,7 @@ msgstr "Тип дії-винятку для запису."
 #. module: document_page
 #: model:ir.model.fields,help:document_page.field_document_page__backend_url
 msgid "Use it to link resources univocally"
-msgstr ""
+msgstr "Використовується для однозначного зв’язування ресурсів"
 
 #. module: document_page
 #: model:ir.model.fields,field_description:document_page.field_document_page__website_message_ids
@@ -565,7 +567,7 @@ msgstr "Історія комунікації через вебсайт"
 #. module: document_page
 #: model:ir.model,name:document_page.model_document_page_create_menu
 msgid "Wizard Create Menu"
-msgstr ""
+msgstr "Майстер створення меню"
 
 #. module: document_page
 #. odoo-python

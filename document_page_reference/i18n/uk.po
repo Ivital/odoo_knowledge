@@ -22,3 +22,9 @@ msgstr "Посилання"
 #: model:ir.model.fields,field_description:document_page_reference.field_document_page__content_parsed
 msgid "Parsed Content"
 msgstr "Розібраний вміст"
+
+#. module: document_page_reference
+#: model:ir.model.fields,help:document_page_reference.field_document_page__reference
+msgid "Used to find the document, it can contain letters, numbers and _"
+msgstr ""
+"Використовується для пошуку документа; може містити літери, цифри та _"

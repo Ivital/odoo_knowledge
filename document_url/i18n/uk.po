@@ -90,7 +90,7 @@ msgstr ""
 #. module: document_url
 #: model:ir.model,name:document_url.model_ir_attachment_add_url
 msgid "Wizard to add URL attachment"
-msgstr ""
+msgstr "Майстер додавання URL-вкладення"
 
 #~ msgid "or"
 #~ msgstr "або"
