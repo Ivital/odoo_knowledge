@@ -71,7 +71,7 @@ msgstr "База знань"
 #. module: document_knowledge
 #: model_terms:ir.ui.view,arch_db:document_knowledge.view_knowledge_configuration
 msgid "Knowledge and Documents Management"
-msgstr ""
+msgstr "Керування знаннями та документами"
 
 #. module: document_knowledge
 #: model:ir.module.category,description:document_knowledge.module_category_knowledge
@@ -105,6 +105,8 @@ msgid ""
 "                             attachments centrally, from the Document "
 "Knowledge/Documents menu."
 msgstr ""
+"Після встановлення цього поля всі користувачі зможуть централізовано "
+"керувати вкладеннями через меню «База знань/Документи»."
 
 #~ msgid "Apply"
 #~ msgstr "Застосувати"

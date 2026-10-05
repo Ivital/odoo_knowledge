@@ -66,7 +66,7 @@ msgstr ""
 #. module: document_page_tag
 #: model_terms:ir.ui.view,arch_db:document_page_tag.view_document_page_tag_search
 msgid "Document Tag Search"
-msgstr ""
+msgstr "Пошук тегів документа"
 
 #. module: document_page_tag
 #: model:ir.model.fields,field_description:document_page_tag.field_document_page_tag__id

@@ -46,3 +46,8 @@ msgstr "Сторінки документів"
 #: model:ir.model.fields,field_description:document_page_product.field_document_page__product_tmpl_ids
 msgid "Product Templates"
 msgstr "Шаблони товарів"
+
+#. module: document_page_product
+#: model:ir.model.fields,field_description:document_page_product.field_document_page__product_template_count
+msgid "Product Template Count"
+msgstr "Кількість шаблонів товару"

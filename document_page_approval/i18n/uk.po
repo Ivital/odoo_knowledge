@@ -24,6 +24,8 @@ msgid ""
 "<b>You already have a Draft Change Request for this page.</b>\n"
 "                    It is highly recommended that you edit that one instead of creating a new one."
 msgstr ""
+"<b>Для цієї сторінки вже є чернетка запиту на зміну.</b>\n"
+"                    Наполегливо рекомендується редагувати її, а не створювати нову."
 
 #. module: document_page_approval
 #: model:mail.template,body_html:document_page_approval.email_template_new_draft_need_approval
@@ -212,7 +214,7 @@ msgstr "Має повідомлення"
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page__has_changes_pending_approval
 msgid "Has changes pending approval"
-msgstr ""
+msgstr "Є зміни, що очікують схвалення"
 
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page__history_ids
@@ -222,12 +224,12 @@ msgstr "Історія"
 #. module: document_page_approval
 #: model:ir.model.fields,help:document_page_approval.field_document_page_history__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
 
 #. module: document_page_approval
 #: model:ir.model.fields,help:document_page_approval.field_document_page_history__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr ""
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
 
 #. module: document_page_approval
 #: model:ir.model.fields,help:document_page_approval.field_document_page__is_approval_required
@@ -274,12 +276,12 @@ msgstr "Кількість помилок"
 #. module: document_page_approval
 #: model:ir.model.fields,help:document_page_approval.field_document_page_history__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr ""
+msgstr "Кількість повідомлень, що потребують дії"
 
 #. module: document_page_approval
 #: model:ir.model.fields,help:document_page_approval.field_document_page_history__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr ""
+msgstr "Кількість повідомлень із помилкою доставки"
 
 #. module: document_page_approval
 #: model:ir.model.fields.selection,name:document_page_approval.selection__document_page_history__state__to_approve
@@ -295,7 +297,7 @@ msgstr "Рейтинги"
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page__approval_required
 msgid "Require approval"
-msgstr ""
+msgstr "Вимагати затвердження"
 
 #. module: document_page_approval
 #: model:ir.model.fields,help:document_page_approval.field_document_page__approval_required
@@ -323,6 +325,8 @@ msgid ""
 "This document has <b>Changes Pending Approval</b>. You are viewing the last "
 "approved content."
 msgstr ""
+"Цей документ має <b>Зміни, що очікують схвалення</b>. Ви переглядаєте "
+"останній схвалений вміст."
 
 #. module: document_page_approval
 #: model_terms:ir.ui.view,arch_db:document_page_approval.wiki_form_inherit
@@ -330,6 +334,8 @@ msgid ""
 "This document requires approval. If edited, you will create a new <b>Change "
 "Request</b>."
 msgstr ""
+"Цей документ потребує схвалення. У разі редагування буде створено новий "
+"<b>Запит на зміну</b>."
 
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page_history__page_url
@@ -339,7 +345,7 @@ msgstr ""
 #. module: document_page_approval
 #: model:ir.model.fields,field_description:document_page_approval.field_document_page__user_has_drafts
 msgid "User has drafts?"
-msgstr ""
+msgstr "У користувача є чернетки?"
 
 #. module: document_page_approval
 #: model:ir.model.fields,help:document_page_approval.field_document_page__approver_gid
@@ -354,7 +360,7 @@ msgstr "Повідомлення вебсайту"
 #. module: document_page_approval
 #: model:ir.model.fields,help:document_page_approval.field_document_page_history__website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "Історія комунікації через вебсайт"
 
 #. module: document_page_approval
 #. odoo-python

@@ -38,3 +38,8 @@ msgstr "Кількість сторінок документів"
 #: model:ir.actions.act_window,name:document_page_project.action_document_page_projects
 msgid "Project Wiki"
 msgstr "Wiki проєкту"
+
+#. module: document_page_project
+#: model_terms:ir.ui.view,arch_db:document_page_project.view_project_kanban
+msgid "<span class=\"o_label\">Wiki Pages</span>"
+msgstr "<span class=\"o_label\">Wiki-сторінки</span>"
